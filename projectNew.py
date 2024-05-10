@@ -64,7 +64,7 @@ class menuObjects(QMainWindow):
 
 class popups(QWidget):
     def __init__(self, parent=None):#Sets general stuff for all popups
-        super().__init__()
+        super().__init__() chabba
         self.setWindowTitle("")
         self.widgets = {}
         self.setGeometry(300,300,500,300)
